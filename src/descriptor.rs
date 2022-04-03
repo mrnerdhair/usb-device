@@ -316,7 +316,7 @@ impl<'w, 'a: 'w> BosWriter<'w, 'a> {
                 0x00, // bNumDeviceCaps
             ])?;
 
-        self.capability(capability_type::USB_2_0_EXTENSION, &[0; 4])?;
+        // self.capability(capability_type::USB_2_0_EXTENSION, &[0; 4])?;
 
         Ok(())
     }
